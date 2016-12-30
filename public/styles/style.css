@@ -173,6 +173,19 @@ body {
   margin: 33px 4%;
 }
 
+ a:link , a:visited  {
+  text-decoration: underline;
+  color: #6e6e64;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+}
+
+ a:hover ,  a:active {
+ color: #b28e48;
+}
+
 .foot-col:first-of-type {
   text-align: left;
 }
