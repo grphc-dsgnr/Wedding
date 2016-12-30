@@ -1,0 +1,181 @@
+/* Typography */
+
+@font-face {
+    font-family: big caslon;
+    src: url(../fonts/BigCaslonRom.ttf);
+    src: url(../fonts/BigCaslonRom.eot);
+    src: url(../fonts/BigCaslonRom.svg);
+    src: url(../fonts/BigCaslonRom.woff);
+    font-weight:100;
+}
+
+@font-face {
+    font-family: Jenson;
+    src: url(../fonts/AJensonPro-LtDisp.ttf);
+    src: url(../fonts/AJensonPro-LtDisp.eot);
+    src: url(../fonts/AJensonPro-LtDisp.svg);
+    src: url(../fonts/AJensonPro-LtDisp.woff);
+    font-weight:100;
+}
+
+h1,h2,h3,h4, body {
+  font-family: "Jenson" , "Times" , serif;
+  font-weight: 100;
+}
+
+h1 , h2, h3 {
+  color: #b28e48;
+}
+
+h4 {
+  color: #6e6e64;
+}
+
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.3;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 80px;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 3px;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 80px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 4.6px;
+}
+
+h4 {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.86;
+  letter-spacing: 4.6px;
+}
+
+/* Global Settings */
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* Header */
+
+.header {
+  display: inline-block;
+  width: 100vw;
+  height: 70vh;
+  background-color: #f7f7f7;
+  background-image: url(../assets/bg-left.png) , url(../assets/bg-right.png);
+  background-position: 45% 110% , 80% 48%;
+  background-size: 1366px 690px , 1366px 768px;
+  background-repeat: no-repeat;
+}
+
+.header h1 {
+  margin-top: 28.25vh;
+}
+
+
+/* Content */
+
+.content-container {
+  width: 100%;
+  margin: 120px auto ;
+}
+
+.content-container h2 {
+  margin: 0 0 -45px 0;
+}
+
+.content-box {
+  width: 660px;
+  height: 370px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-box hr {
+  border: solid 1px #e3e3e3;
+  margin: 0 50px;
+}
+
+.date {
+  margin:0 auto;
+  display: block;
+  width: 100%;
+}
+
+.box-top {
+  display: inline-block;
+  margin: 60px 50px 50px 50px;
+  vertical-align: middle;
+}
+
+.box-bottom {
+  display: inline-block;
+  margin: 60px 50px;
+  vertical-align: middle;
+}
+
+.box-top h4, .box-top h3 {
+  margin: 0 22px;
+  vertical-align: middle;
+}
+
+.box-bottom h4 {
+  margin: auto;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4.6px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+	background-color: #f7f7f7;
+}
+
+.foot-col {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #6e6e64;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+  text-align: center;
+  margin: 33px 4%;
+}
+
+.foot-col:first-of-type {
+  text-align: left;
+}
+.foot-col:last-of-type {
+  text-align: right;
+}

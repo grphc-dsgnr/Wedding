@@ -1,0 +1,28 @@
+@media screen and (max-width: 426px) {
+
+  h2,h3 {
+    font-size: 45px;
+    line-height: 1;
+  }
+
+  .box-top h4, .box-top h3 {
+    margin: 0 2px;
+  }
+
+  .content-container h2 {
+      margin: 0 0 -22px 0;
+  }
+
+  .content-box {
+    height: auto;
+  }
+
+  .box-top, .box-bottom {
+    margin: 40px;
+  }
+
+  .foot-col {
+    width: 91%;
+    margin: 20px 4%;
+  }
+}

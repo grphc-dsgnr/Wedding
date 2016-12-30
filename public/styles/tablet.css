@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  h2,h3 {
+    font-size: 60px;
+  }
+
+  .header h1 {
+      margin-top: 26.5vh;
+  }
+
+  .header {
+    background-position: 36% 80% , 90% 53%;
+  }
+
+  .content-box {
+    width: 85%;
+  }
+  .box-top h4, .box-top h3 {
+    margin: 0 10px;
+  }
+
+  .date {
+    width: 100%;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .foot-col {
+    width: 29%;
+    text-align: center !important;
+    margin: 33px 1%;
+  }
+}
