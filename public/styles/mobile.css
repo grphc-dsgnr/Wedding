@@ -5,6 +5,10 @@
     line-height: 1;
   }
 
+  .header {
+    background-position: 36% 80% , 80% 53%;
+  }
+
   .box-top h4, .box-top h3 {
     margin: 0 2px;
   }
