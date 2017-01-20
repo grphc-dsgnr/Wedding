@@ -1,3 +1,38 @@
+@media screen and (max-width:903px) {
+  .center {
+    width: 810px;
+  }
+  .rt-img {
+    margin-right: -60px;
+    width: 207px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:910px) {
+  .content-container {
+    margin: 70px auto;
+  }
+  .content-box {
+    width: 85%;
+    margin: -40px auto 0 auto;
+    display: inherit;
+  }
+
+  .center {
+    width: 100%;
+  }
+  .rt-img {
+    margin: 0 auto;
+    width: 207px;
+    height: auto;
+    display: inherit;
+  }
+}
+
+
+
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 20px;
@@ -16,7 +51,7 @@
     background-position: 42% -294% , 86% 23%;
   }
 
-  .content-box {
+  .content-box-main, .content-box {
     width: 85%;
   }
   .box-top h4, .box-top h3 {
