@@ -8,7 +8,10 @@
   h4.countdown:nth-of-type(2) {
     width: 30px !important;
   }
+  .rt-img , .lf-img-alt { width: 230px !important; }
 }
+
+@media screen and (max-width:376px) {.rt-img , .lf-img-alt {width: 260px;}}
 
 @media screen and (max-width: 426px) {
 
@@ -39,7 +42,7 @@
   }
 
   .content-container h2 {
-      margin: 0 0 -22px 0;
+      margin: 0 0 48px 0;
   }
 
   .content-box-main {
@@ -47,7 +50,7 @@
   }
 
   .content-box {
-    margin: -22px auto 0 auto;
+    margin: -60px auto 0 auto;
   }
 
   .content-box-main .box-top, .content-box-main .box-bottom {
@@ -55,7 +58,7 @@
   }
 
   .content-box .box-top {
-    margin: 40px 30px 30px 30px;
+    margin: 90px 30px 30px 30px;
   }
 
   .content-box .box-bottom {
