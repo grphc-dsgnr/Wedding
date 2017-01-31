@@ -19,7 +19,6 @@ function initializeClock(id, endtime) {
   var hoursSpan = clock.querySelector('.hours');
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
-  console.log(daysSpan);
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
@@ -38,5 +37,4 @@ function initializeClock(id, endtime) {
 }
 
 var deadline = "September 16 2017 16:00:00 EST-0500"
-// var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
