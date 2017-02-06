@@ -62,8 +62,8 @@
   }
 
   .header {
-    background-position: 42% -294% , 86% 23%;
-  }
+  background-image: url(../assets/bg-tablet.png) ;
+}
 
   .content-box-main, .content-box {
     width: 85%;

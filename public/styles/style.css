@@ -150,10 +150,14 @@ body {
   width: 100vw;
   height: 70vh;
   background-color: #f7f7f7;
-  background-image: url(../assets/bg-left.png) , url(../assets/bg-right.png);
+  background-image: url(../assets/bg-desktop.png);
+  background-size: auto 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /*background-image: url(../assets/bg-left.png) , url(../assets/bg-right.png);
   background-position: 0% 110% , 0% 48%;
   background-size: 1366px 690px , 1366px 768px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .header h1 {
