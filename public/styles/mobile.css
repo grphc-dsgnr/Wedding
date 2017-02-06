@@ -37,6 +37,10 @@
     margin-top: 15px;
   }
 
+  h5 {
+    margin: -10px 0 4px 0;
+  }
+
   .header {
   background-image: url(../assets/bg-mobile.png) !important;
   }
@@ -70,6 +74,10 @@
   }
   .content-box hr.half {
     margin: 0 15px;
+  }
+
+  .date-container {
+    margin: -20px 0 -10px 0;
   }
 
   .foot-col {

@@ -76,6 +76,10 @@
     width: 100%;
   }
 
+  .date-container {
+    margin: -40px 0 -10px 0;
+}
+
   .footer {
     height: auto;
   }
