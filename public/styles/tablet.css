@@ -31,6 +31,10 @@
     display: inherit;
   }
 
+   .content-box-main.no-photo {
+     margin: 0px auto !important;
+   }
+
   .center {
     width: 100%;
   }
