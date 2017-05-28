@@ -53,6 +53,10 @@ h2 {
 	letter-spacing: 3px;
   font-weight: 100;
 }
+ span.round-dots {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 0.85em;
+}
 
 h3 {
   display: inline-block;
@@ -123,6 +127,16 @@ h5 {
   font-weight: 100;
   color: #b28e48;
   text-transform: uppercase;
+}
+
+h6 {
+  font-weight: 100;
+  color: #6e6e64;
+  font-size: 38px;
+  line-height: 80px;
+  margin: 0px;
+  padding: 0 0 30px 0;
+  letter-spacing: 1.1px;
 }
 
 p {
@@ -315,6 +329,38 @@ strong {
   width: 100%;
   height: 80px;
 	background-color: #f7f7f7;
+}
+
+.button {
+  padding: 26px 34px 22px 35px;
+  font-size: 14px;
+  background-color: #757575;
+  color: #FFF ;
+  display: inline-block;
+  width: auto;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  letter-spacing: 4.6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a.button {
+  text-decoration: none !important;
+  color: #FFF !important;
+}
+
+.button:hover {
+  background-color: #b28e48;
+  color: #FFF;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  /* margin-top: -2px;
+  margin-bottom: 2px; */
+  text-decoration: none;
+}
+
+.bottom-spacer {
+  margin-bottom: 30px !important;
 }
 
 .foot-col {
