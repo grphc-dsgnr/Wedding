@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
 
 }
 
-var deadline = "2017-09-16";
+var deadline = "2017-09-17";
 initializeClock('clockdiv', deadline);
