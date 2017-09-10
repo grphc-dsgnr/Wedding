@@ -248,7 +248,8 @@ hr.ffacts {
 }
 
 .date-container {
-  margin: -20px 0 -10px 0;
+  margin: -20px auto 50px auto;
+  width: 80%;
 }
 
 .content-box .box-top{
@@ -316,9 +317,16 @@ p.ffacts  {
   width:  auto;
   vertical-align: middle;
 }
+#clockdiv {
+  margin-top: -40px;
+}
 
 .countdown h3 strong , .countdown h4 strong {
   font-weight: 100 !important;
+}
+
+h3.countdown strong {
+  line-height: 75px
 }
 
 strong {
